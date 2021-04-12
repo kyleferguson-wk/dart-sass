@@ -20,7 +20,10 @@ dependencies:
   meta: "^1.1.7"
   node_interop: "^1.1.0"
   js: "^0.6.0"
-  package_resolver: "^1.0.0"
+  package_resolver:
+    git:
+      url: git@github.com:kyleferguson-wk/package_resolver.git
+      ref: master
   path: "^1.6.0"
   source_maps: "^0.10.5"
   source_span: "^1.6.0"
