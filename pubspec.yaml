@@ -9,7 +9,7 @@ executables:
   sass: sass
 
 environment:
-  sdk: '>=2.6.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   args: ">=1.4.0 <3.0.0"
@@ -20,10 +20,6 @@ dependencies:
   meta: "^1.1.7"
   node_interop: "^1.1.0"
   js: "^0.6.0"
-  package_resolver:
-    git:
-      url: git@github.com:kyleferguson-wk/package_resolver.git
-      ref: master
   path: "^1.6.0"
   source_maps: "^0.10.5"
   source_span: "^1.6.0"
@@ -32,12 +28,12 @@ dependencies:
   string_scanner: ">=0.1.5 <2.0.0"
   term_glyph: "^1.0.0"
   tuple: "^1.0.0"
-  watcher: ">=1.0.0 <2.0.0"
+  watcher: ">=0.9.6 <2.0.0"
 
 dev_dependencies:
   archive: ">=1.0.0 <3.0.0"
-  analyzer: ^0.41.2
-  cli_pkg: ^1.2.0
+  analyzer: "^0.40.0"
+  cli_pkg: "^1.1.0"
   crypto: ">=0.9.2 <3.0.0"
   dart_style: "^1.2.0"
   grinder: "^0.8.0"
@@ -48,4 +44,4 @@ dev_dependencies:
   test_descriptor: "^1.1.0"
   test_process: "^1.0.0-rc.1"
   test: ">=0.12.42 <2.0.0"
-  yaml: ^2.0.0
+  yaml: "^2.0.0"
